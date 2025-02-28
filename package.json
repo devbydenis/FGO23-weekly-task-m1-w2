@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "type": "module",
-  "author": "denisrahmadi",
+  "author": "Denis Rahmadi",
   "license": "ISC",
   "description": "the project is to finish all the weekly task assignment and call all of function in one file (index.js)",
   "dependencies": {
