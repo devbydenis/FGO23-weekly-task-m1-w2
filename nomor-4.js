@@ -32,4 +32,4 @@ function reverseWords(words) {
     return result;
 }
 
-console.log(reverseWords("Saya Belajar Javascript"));
+export { reverseWords, cekPalindrom }
