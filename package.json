@@ -11,7 +11,7 @@
   "type": "module",
   "author": "denisrahmadi",
   "license": "ISC",
-  "description": "",
+  "description": "the project is to finish all the weekly task assignment and call all of function in one file (index.js)",
   "dependencies": {
     "consola": "^3.4.0"
   },
