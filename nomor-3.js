@@ -37,4 +37,4 @@ async function fetchDataAPI() {
     }
 }
 
-fetchDataAPI();
+export default fetchDataAPI
