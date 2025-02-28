@@ -14,4 +14,4 @@ const divideAndSort = (numbers) => {
   return Number(result.join(""))
 }
 
-console.log(divideAndSort(5956560159466056));
+export default divideAndSort
