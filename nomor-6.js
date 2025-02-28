@@ -1,56 +1,3 @@
-// import fs from 'fs'
-// import path from 'path'
-// import readline from 'readline'
-// import {consola, createConsola} from 'consola'
-
-// const absolutePath = path.resolve('FGO23-Weekly-Task-m2-w2', 'nomor-6.txt');
-// const rl = readline.createInterface({
-//   input: process.stdin,
-//   output: process.stdout
-// })
-
-// consola.start("Welcome to simple cli app!")
-
-// rl.question("Whats your name, buddy? ", (name) => {
-//   fs.writeFile('cli-app.txt', name, (err) => {
-//     if (err) {
-//       consola.error("Failed to write file: ", err)
-//       return
-//     }
-//   })
-
-//   rl.question("Where you from? ", (city) => {
-//     fs.appendFile('cli-app.txt', city, (err) => {
-//       if (err) {
-//         consola.error("Failed to write city", err)
-//       }
-//     })
-
-//     rl.question("Whats your dream? ", (ambition) => {
-//       fs.appendFile('cli-app.txt', ambition, (err) => {
-//         if (err) {
-//           consola.error("Failed to write ambition")
-//         }
-//       })
-//       consola.success("Success write your information!")
-
-//       rl.close()
-//     })
-//   })
-// })
-
-// const deleteFile = () => {
-
-// }
-
-
-// 1. consola.start("Welcome to simple cli app!")
-// 2. whats your name? 
-// 3 const absolutePath = path.resolve('FGO23-Weekly-Task-m2-w2', 'nomor-6.txt');
-// 4, fs.readFile(), fs.writeFile(), fs.unlink()
-
-
-
 import readline from 'readline'
 import fs from 'fs'
 import path from 'path'
@@ -161,4 +108,4 @@ function main() {
   }, 3000);
 }
 
-main()
+export default main
