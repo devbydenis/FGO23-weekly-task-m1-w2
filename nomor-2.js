@@ -21,5 +21,5 @@ function processData(result, error) {
     }
 }
 
-getDataFromServer(true, processData);
+export default getDataFromServer;
 // getDataFromServer(false, processData);
