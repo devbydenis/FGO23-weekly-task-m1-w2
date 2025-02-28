@@ -1,9 +1,9 @@
-import processData from "./nomor-1";
-import getDataFromServer from "./nomor-2";
-import fetchDataAPI from "./nomor-3";
-import { reverseWords, cekPalindrom } from "./nomor-4";
-import divideAndSort from "./nomor-5";
-import main from "./nomor-6";
+import processData from "./nomor-1.js";
+import getDataFromServer from "./nomor-2.js";
+import fetchDataAPI from "./nomor-3.js";
+import { reverseWords, cekPalindrom } from "./nomor-4.js";
+import divideAndSort from "./nomor-5.js";
+import main from "./nomor-6.js";
 
 
 function weeklyTaskDenis(){
